@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 span{
+    color: #bdff5a;
+}
+
+#canvas {
+    border: solid 2px black;
+}
+
+.instructions{
+    margin-top: 2em;
+}
+
+.instructions span{
+    margin: 2em;
+    font-size: x-large;
+}
+
+.instructions img{
+    height: 25px;
+    width: 25px;
+}
+
+button{
+    background-color: white;
+    width: 5em;
+    height: 1.7em;
+    margin-left: 3em;
+}

@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root{
+    --font: 'VT323',monospace;
+}
+
 *{
+    font-family: var(--font);
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-#canvas{
-    border: solid 2px black;
+body{
+    color: #9ee139;
+    background-image: url('./assets/images/sky.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
 }
+
